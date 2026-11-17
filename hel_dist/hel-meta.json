@@ -1,0 +1,148 @@
+{
+  "app": {
+    "name": "comps-art",
+    "app_group_name": "comps-art",
+    "git_repo_url": "",
+    "online_version": "2026.11.16-1",
+    "build_version": "2026.11.16-1",
+    "platform": "unpkg",
+    "create_at": "2026-11-17T07:45:02.256Z"
+  },
+  "version": {
+    "plugin_ver": "5.4.3",
+    "extract_mode": "build",
+    "sub_app_name": "comps-art",
+    "sub_app_version": "comps-art@2026.11.16-1",
+    "version_tag": "2026.11.16-1",
+    "src_map": {
+      "webDirPath": "/comps-art/hel_dist",
+      "htmlIndexSrc": "/comps-art/hel_dist/index.html",
+      "extractMode": "all",
+      "iframeSrc": "",
+      "chunkCssSrcList": [
+        "/comps-art/hel_dist/assets/style-ChCm0n5J.css"
+      ],
+      "chunkJsSrcList": [
+        "/comps-art/hel_dist/assets/index-C9iUHKdL.js",
+        "/comps-art/hel_dist/assets/preload-helper-DJ6kqvi3.js",
+        "/comps-art/hel_dist/assets/shared-runtime-u88-9G6Q.js",
+        "/comps-art/hel_dist/assets/vendor-VheH_XYQ.js"
+      ],
+      "staticCssSrcList": [
+        "https://unpkg.com/element-plus@2.14.7/dist/index.css"
+      ],
+      "staticJsSrcList": [
+        "https://unpkg.com/vue@3.5.45/dist/vue.global.prod.js",
+        "https://unpkg.com/element-plus@2.14.7/dist/index.full.min.js",
+        "https://unpkg.com/vue-router@4.6.4/dist/vue-router.global.prod.js",
+        "https://unpkg.com/pinia@3.0.4/dist/pinia.iife.prod.js",
+        "https://unpkg.com/vue-i18n@10.0.8/dist/vue-i18n.global.prod.js"
+      ],
+      "relativeCssSrcList": [],
+      "relativeJsSrcList": [],
+      "headAssetList": [
+        {
+          "tag": "staticScript",
+          "append": false,
+          "attrs": {
+            "src": "https://unpkg.com/vue@3.5.45/dist/vue.global.prod.js"
+          }
+        },
+        {
+          "tag": "staticScript",
+          "append": false,
+          "attrs": {
+            "src": "https://unpkg.com/element-plus@2.14.7/dist/index.full.min.js"
+          }
+        },
+        {
+          "tag": "staticScript",
+          "append": false,
+          "attrs": {
+            "src": "https://unpkg.com/vue-router@4.6.4/dist/vue-router.global.prod.js"
+          }
+        },
+        {
+          "tag": "staticScript",
+          "append": false,
+          "attrs": {
+            "src": "https://unpkg.com/pinia@3.0.4/dist/pinia.iife.prod.js"
+          }
+        },
+        {
+          "tag": "staticScript",
+          "append": false,
+          "attrs": {
+            "src": "https://unpkg.com/vue-i18n@10.0.8/dist/vue-i18n.global.prod.js"
+          }
+        },
+        {
+          "tag": "staticLink",
+          "append": false,
+          "attrs": {
+            "href": "https://unpkg.com/element-plus@2.14.7/dist/index.css",
+            "rel": "stylesheet"
+          }
+        },
+        {
+          "tag": "script",
+          "append": true,
+          "attrs": {
+            "src": "/comps-art/hel_dist/assets/index-C9iUHKdL.js",
+            "type": "module",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-art/hel_dist/assets/preload-helper-DJ6kqvi3.js",
+            "rel": "modulepreload",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-art/hel_dist/assets/shared-runtime-u88-9G6Q.js",
+            "rel": "modulepreload",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-art/hel_dist/assets/vendor-VheH_XYQ.js",
+            "rel": "modulepreload",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-art/hel_dist/assets/style-ChCm0n5J.css",
+            "rel": "stylesheet",
+            "crossorigin": ""
+          }
+        }
+      ],
+      "bodyAssetList": [],
+      "otherSrcList": [
+        "/comps-art/hel_dist/assets/index-C9iUHKdL.js.gz",
+        "/comps-art/hel_dist/assets/shared-runtime-u88-9G6Q.js.gz",
+        "/comps-art/hel_dist/assets/style-ChCm0n5J.css.gz",
+        "/comps-art/hel_dist/assets/vendor-VheH_XYQ.js.gz",
+        "/comps-art/hel_dist/index.html"
+      ],
+      "srvModSrcList": [],
+      "srvModSrcIndex": ""
+    },
+    "html_content": "<!doctype html>\r\n<!-- hel-standalone：给 src/style.css 里的调试页样式做作用域，避免 hel_dist 把页面级样式注入宿主 -->\r\n<html lang=\"en\" class=\"hel-standalone\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>comps-art</title>\r\n    <!--\r\n      vue / element-plus / vue-router / pinia / vue-i18n 都被 external 成 window.*，\r\n      独立访问本页时由这里的 CDN 提供运行时；\r\n      data-helappend=\"0\"：宿主通过 hel 解析本页时跳过这些脚本，\r\n      使用宿主自己在入口注入的那一份，避免双实例（双 vue / 双 router / 双 i18n）。\r\n    -->\r\n    <script data-helappend=\"0\" src=\"https://unpkg.com/vue@3.5.45/dist/vue.global.prod.js\"></script>\r\n    <script\r\n      data-helappend=\"0\"\r\n      src=\"https://unpkg.com/element-plus@2.14.7/dist/index.full.min.js\"\r\n    ></script>\r\n    <script\r\n      data-helappend=\"0\"\r\n      src=\"https://unpkg.com/vue-router@4.6.4/dist/vue-router.global.prod.js\"\r\n    ></script>\r\n    <script data-helappend=\"0\" src=\"https://unpkg.com/pinia@3.0.4/dist/pinia.iife.prod.js\"></script>\r\n    <script\r\n      data-helappend=\"0\"\r\n      src=\"https://unpkg.com/vue-i18n@10.0.8/dist/vue-i18n.global.prod.js\"\r\n    ></script>\r\n    <link\r\n      data-helappend=\"0\"\r\n      rel=\"stylesheet\"\r\n      href=\"https://unpkg.com/element-plus@2.14.7/dist/index.css\"\r\n    />\r\n    <script type=\"module\" crossorigin src=\"/comps-art/hel_dist/assets/index-C9iUHKdL.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-art/hel_dist/assets/preload-helper-DJ6kqvi3.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-art/hel_dist/assets/shared-runtime-u88-9G6Q.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-art/hel_dist/assets/vendor-VheH_XYQ.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/comps-art/hel_dist/assets/style-ChCm0n5J.css\">\n  </head>\r\n  <body>\r\n    <div id=\"app\"></div>\r\r\n  </body>\r\n</html>\r\n",
+    "create_at": "2026-11-17T07:45:02.256Z",
+    "desc": "this version meta is created by hel-dev-utils@5.4.3"
+  }
+}
