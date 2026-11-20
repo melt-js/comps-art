@@ -6,7 +6,7 @@
     "online_version": "2026.11.16-1",
     "build_version": "2026.11.16-1",
     "platform": "unpkg",
-    "create_at": "2026-11-19T12:12:22.400Z"
+    "create_at": "2026-11-20T17:29:08.804Z"
   },
   "version": {
     "plugin_ver": "5.4.3",
@@ -142,7 +142,7 @@
       "srvModSrcIndex": ""
     },
     "html_content": "<!doctype html>\n<!-- hel-standalone：给 src/style.css 里的调试页样式做作用域，避免 hel_dist 把页面级样式注入宿主 -->\n<html lang=\"en\" class=\"hel-standalone\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>comps-art</title>\n    <!--\n      vue / element-plus / vue-router / pinia / vue-i18n 都被 external 成 window.*，\n      独立访问本页时由这里的 CDN 提供运行时；\n      data-helappend=\"0\"：宿主通过 hel 解析本页时跳过这些脚本，\n      使用宿主自己在入口注入的那一份，避免双实例（双 vue / 双 router / 双 i18n）。\n    -->\n    <script data-helappend=\"0\" src=\"https://unpkg.com/vue@3.5.45/dist/vue.global.prod.js\"></script>\n    <script\n      data-helappend=\"0\"\n      src=\"https://unpkg.com/element-plus@2.14.7/dist/index.full.min.js\"\n    ></script>\n    <script\n      data-helappend=\"0\"\n      src=\"https://unpkg.com/vue-router@4.6.4/dist/vue-router.global.prod.js\"\n    ></script>\n    <script data-helappend=\"0\" src=\"https://unpkg.com/pinia@3.0.4/dist/pinia.iife.prod.js\"></script>\n    <script\n      data-helappend=\"0\"\n      src=\"https://unpkg.com/vue-i18n@10.0.8/dist/vue-i18n.global.prod.js\"\n    ></script>\n    <link\n      data-helappend=\"0\"\n      rel=\"stylesheet\"\n      href=\"https://unpkg.com/element-plus@2.14.7/dist/index.css\"\n    />\n    <script type=\"module\" crossorigin src=\"/comps-art/hel_dist/assets/index-BQbAjDy1.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-art/hel_dist/assets/preload-helper-DJ6kqvi3.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-art/hel_dist/assets/shared-runtime-u88-9G6Q.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-art/hel_dist/assets/vendor-VheH_XYQ.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/comps-art/hel_dist/assets/style-CrVTo6md.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
-    "create_at": "2026-11-19T12:12:22.400Z",
+    "create_at": "2026-11-20T17:29:08.804Z",
     "desc": "this version meta is created by hel-dev-utils@5.4.3"
   }
 }
