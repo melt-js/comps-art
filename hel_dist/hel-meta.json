@@ -3,30 +3,30 @@
     "name": "comps-art",
     "app_group_name": "comps-art",
     "git_repo_url": "",
-    "online_version": "2026.11.22",
-    "build_version": "2026.11.22",
+    "online_version": "2026.11.24-1",
+    "build_version": "2026.11.24-1",
     "platform": "unpkg",
-    "create_at": "2026-11-22T20:35:12.033Z"
+    "create_at": "2026-11-26T05:10:35.211Z"
   },
   "version": {
     "plugin_ver": "5.4.3",
     "extract_mode": "build",
     "sub_app_name": "comps-art",
-    "sub_app_version": "comps-art@2026.11.22",
-    "version_tag": "2026.11.22",
+    "sub_app_version": "comps-art@2026.11.24-1",
+    "version_tag": "2026.11.24-1",
     "src_map": {
       "webDirPath": "/comps-art/hel_dist",
       "htmlIndexSrc": "/comps-art/hel_dist/index.html",
       "extractMode": "all",
       "iframeSrc": "",
       "chunkCssSrcList": [
-        "/comps-art/hel_dist/assets/style-BImdyiXC.css"
+        "/comps-art/hel_dist/assets/style-D7uwO-TB.css"
       ],
       "chunkJsSrcList": [
-        "/comps-art/hel_dist/assets/index-BGlJCxW-.js",
+        "/comps-art/hel_dist/assets/index-19r3mU4o.js",
         "/comps-art/hel_dist/assets/preload-helper-DJ6kqvi3.js",
-        "/comps-art/hel_dist/assets/shared-runtime-lEvLNVnN.js",
-        "/comps-art/hel_dist/assets/vendor-CtrjXqi-.js"
+        "/comps-art/hel_dist/assets/shared-runtime-Bw7tYAdG.js",
+        "/comps-art/hel_dist/assets/vendor-fUKfCfH4.js"
       ],
       "staticCssSrcList": [
         "https://unpkg.com/element-plus@2.14.7/dist/index.css"
@@ -88,7 +88,7 @@
           "tag": "script",
           "append": true,
           "attrs": {
-            "src": "/comps-art/hel_dist/assets/index-BGlJCxW-.js",
+            "src": "/comps-art/hel_dist/assets/index-19r3mU4o.js",
             "type": "module",
             "crossorigin": ""
           }
@@ -106,7 +106,7 @@
           "tag": "link",
           "append": true,
           "attrs": {
-            "href": "/comps-art/hel_dist/assets/shared-runtime-lEvLNVnN.js",
+            "href": "/comps-art/hel_dist/assets/shared-runtime-Bw7tYAdG.js",
             "rel": "modulepreload",
             "crossorigin": ""
           }
@@ -115,7 +115,7 @@
           "tag": "link",
           "append": true,
           "attrs": {
-            "href": "/comps-art/hel_dist/assets/vendor-CtrjXqi-.js",
+            "href": "/comps-art/hel_dist/assets/vendor-fUKfCfH4.js",
             "rel": "modulepreload",
             "crossorigin": ""
           }
@@ -124,7 +124,7 @@
           "tag": "link",
           "append": true,
           "attrs": {
-            "href": "/comps-art/hel_dist/assets/style-BImdyiXC.css",
+            "href": "/comps-art/hel_dist/assets/style-D7uwO-TB.css",
             "rel": "stylesheet",
             "crossorigin": ""
           }
@@ -132,17 +132,13 @@
       ],
       "bodyAssetList": [],
       "otherSrcList": [
-        "/comps-art/hel_dist/assets/index-BGlJCxW-.js.gz",
-        "/comps-art/hel_dist/assets/shared-runtime-lEvLNVnN.js.gz",
-        "/comps-art/hel_dist/assets/style-BImdyiXC.css.gz",
-        "/comps-art/hel_dist/assets/vendor-CtrjXqi-.js.gz",
         "/comps-art/hel_dist/index.html"
       ],
       "srvModSrcList": [],
       "srvModSrcIndex": ""
     },
-    "html_content": "<!doctype html>\n<!-- hel-standalone：给 src/style.css 里的调试页样式做作用域，避免 hel_dist 把页面级样式注入宿主 -->\n<html lang=\"en\" class=\"hel-standalone\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>comps-art</title>\n    <!--\n      vue / element-plus / vue-router / pinia / vue-i18n 都被 external 成 window.*，\n      独立访问本页时由这里的 CDN 提供运行时；\n      data-helappend=\"0\"：宿主通过 hel 解析本页时跳过这些脚本，\n      使用宿主自己在入口注入的那一份，避免双实例（双 vue / 双 router / 双 i18n）。\n    -->\n    <script data-helappend=\"0\" src=\"https://unpkg.com/vue@3.5.45/dist/vue.global.prod.js\"></script>\n    <script\n      data-helappend=\"0\"\n      src=\"https://unpkg.com/element-plus@2.14.7/dist/index.full.min.js\"\n    ></script>\n    <script\n      data-helappend=\"0\"\n      src=\"https://unpkg.com/vue-router@4.6.4/dist/vue-router.global.prod.js\"\n    ></script>\n    <script data-helappend=\"0\" src=\"https://unpkg.com/pinia@3.0.4/dist/pinia.iife.prod.js\"></script>\n    <script\n      data-helappend=\"0\"\n      src=\"https://unpkg.com/vue-i18n@10.0.8/dist/vue-i18n.global.prod.js\"\n    ></script>\n    <link\n      data-helappend=\"0\"\n      rel=\"stylesheet\"\n      href=\"https://unpkg.com/element-plus@2.14.7/dist/index.css\"\n    />\n    <script type=\"module\" crossorigin src=\"/comps-art/hel_dist/assets/index-BGlJCxW-.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-art/hel_dist/assets/preload-helper-DJ6kqvi3.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-art/hel_dist/assets/shared-runtime-lEvLNVnN.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-art/hel_dist/assets/vendor-CtrjXqi-.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/comps-art/hel_dist/assets/style-BImdyiXC.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
-    "create_at": "2026-11-22T20:35:12.033Z",
+    "html_content": "<!doctype html>\n<!-- hel-standalone：给 src/style.css 里的调试页样式做作用域，避免 hel_dist 把页面级样式注入宿主 -->\n<html lang=\"en\" class=\"hel-standalone\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>comps-art</title>\n    <!--\n      vue / element-plus / vue-router / pinia / vue-i18n 都被 external 成 window.*，\n      独立访问本页时由这里的 CDN 提供运行时；\n      data-helappend=\"0\"：宿主通过 hel 解析本页时跳过这些脚本，\n      使用宿主自己在入口注入的那一份，避免双实例（双 vue / 双 router / 双 i18n）。\n    -->\n    <script data-helappend=\"0\" src=\"https://unpkg.com/vue@3.5.45/dist/vue.global.prod.js\"></script>\n    <script\n      data-helappend=\"0\"\n      src=\"https://unpkg.com/element-plus@2.14.7/dist/index.full.min.js\"\n    ></script>\n    <script\n      data-helappend=\"0\"\n      src=\"https://unpkg.com/vue-router@4.6.4/dist/vue-router.global.prod.js\"\n    ></script>\n    <script data-helappend=\"0\" src=\"https://unpkg.com/pinia@3.0.4/dist/pinia.iife.prod.js\"></script>\n    <script\n      data-helappend=\"0\"\n      src=\"https://unpkg.com/vue-i18n@10.0.8/dist/vue-i18n.global.prod.js\"\n    ></script>\n    <link\n      data-helappend=\"0\"\n      rel=\"stylesheet\"\n      href=\"https://unpkg.com/element-plus@2.14.7/dist/index.css\"\n    />\n    <script type=\"module\" crossorigin src=\"/comps-art/hel_dist/assets/index-19r3mU4o.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-art/hel_dist/assets/preload-helper-DJ6kqvi3.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-art/hel_dist/assets/shared-runtime-Bw7tYAdG.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-art/hel_dist/assets/vendor-fUKfCfH4.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/comps-art/hel_dist/assets/style-D7uwO-TB.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n  </body>\n</html>\n",
+    "create_at": "2026-11-26T05:10:35.211Z",
     "desc": "this version meta is created by hel-dev-utils@5.4.3"
   }
 }
